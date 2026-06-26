@@ -1,0 +1,7 @@
+torch==2.5.1
+torchvision
+ultralytics==8.4.35
+opencv-python
+numpy
+matplotlib
+scipy
