@@ -10,10 +10,6 @@ WRT-DETR enhances the RT-DETR architecture by integrating wavelet transform theo
 - **LDWConv (Low-frequency enhancement and Direction-adaptive Wavelet Convolution)**: Integrated into the backbone network to expand the effective receptive field while refining crack orientations through recursive low-frequency enhancement and direction-adaptive high-frequency refinement.
 - **DWT-HiLo (Discrete Wavelet Transform-based HiLo Attention)**: Replaces the AIFI module in the feature fusion stage, employing lossless subband decomposition and combining local and global attention to preserve high-frequency details.
 
-&lt;p align="center"&gt;
-  &lt;img src="assets/model_architecture.png" alt="WRT-DETR Architecture" width="800"/&gt;
-&lt;/p&gt;
-
 ## Requirements
 
 - Python &gt;= 3.10
@@ -40,3 +36,8 @@ conda activate wrt-detr
 
 # Install dependencies
 pip install -r requirements.txt
+
+
+## Pretrained Weights
+
+Download the best model: [WRT-DETR v1.0](https://github.com/L26111/WRT-DETR/releases/tag/v1.0)
