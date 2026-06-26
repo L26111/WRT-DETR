@@ -1,0 +1,140 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================
+# PyTorch / Deep Learning
+# ============================================
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+checkpoints/
+runs/
+logs/
+wandb/
+output/
+results/
+*.onnx
+*.trt
+*.engine
+
+# ============================================
+# Data & Datasets (不要上传大数据文件)
+# ============================================
+data/
+datasets/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.gif
+*.mp4
+*.avi
+*.mov
+*.json
+*.xml
+*.txt
+!requirements.txt
+!LICENSE.txt
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+
+# ============================================
+# IDE & Editor
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# ============================================
+# Jupyter Notebook
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
+*.ipynb_checkpoints/
+
+# ============================================
+# OS Generated
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================
+# Environment
+# ============================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.env
+*.local
+
+# ============================================
+# Testing
+# ============================================
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============================================
+# Documentation builds
+# ============================================
+docs/_build/
+site/
+
+# ============================================
+# Misc
+# ============================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
