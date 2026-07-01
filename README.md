@@ -41,3 +41,12 @@ pip install -r requirements.txt
 ## Pretrained Weights
 
 Download the best model: [WRT-DETR v1.0](https://github.com/L26111/WRT-DETR/releases/tag/v1.0)
+
+
+## Dataset Preparation
+
+- **RDD2022**: We use the official train/val/test splits provided by the dataset without additional filtering. All augmentations (random flip, rotation, color jitter) are applied **online** during training, so no augmented images are stored or shared across splits.
+
+- **SVRDD subset**: We randomly sample 3,017 images from the full SVRDD dataset, retaining only the four categories shared with RDD2022 (D00, D10, D20, D40). The subset is split into train/val/test at 8:1:1 with a fixed random seed (42). No additional image-level cleaning is applied.
+
+- The exact split files are available at `./data/splits/` for full reproducibility.
